@@ -21,8 +21,12 @@ public class GdprConstants {
     public static final int CONSENT_LANGUAGE_SIZE = 12;
     public static final int VENDOR_LIST_VERSION_OFFSET = 120;
     public static final int VENDOR_LIST_VERSION_SIZE = 12;
+    public static final int PUBLISHER_PURPOSES_LIST_VERSION_OFFSET = 132;
+    public static final int PUBLISHER_PURPOSES_LIST_VERSION_SIZE = 12;
     public static final int PURPOSES_OFFSET = 132;
+    public static final int PUBLISHER_PURPOSES_OFFSET = 144;
     public static final int PURPOSES_SIZE = 24;
+    public static final int CUSTOM_PURPOSES_SIZE = 64;
     public static final int MAX_VENDOR_ID_OFFSET = 156;
     public static final int MAX_VENDOR_ID_SIZE = 16;
     public static final int ENCODING_TYPE_OFFSET = 172;
@@ -33,4 +37,7 @@ public class GdprConstants {
     public static final int NUM_ENTRIES_SIZE = 12;
     public static final int RANGE_ENTRY_OFFSET = 186;
     public static final int VENDOR_ID_SIZE = 16;
+    public static final int NUMBER_CUSTOM_PURPOSES_OFFSET = 168;
+    public static final int NUMBER_CUSTOM_PURPOSES_SIZE = 6;
+    public static final int CUSTOM_PURPOSES_BITFIELD_OFFSET = 174;
 }
